@@ -1,0 +1,89 @@
+[
+  {
+    "key": "btnKrediDegerlendirme",
+    "value": ".tab-navigation:nth-of-type(1)>ul>li:nth-of-type(9)>ul>li>a:nth-of-type(1)",
+    "type": "css"
+  }
+,
+  {
+    "key": "TextCreditSearch",
+    "value": ".menu-information>a",
+    "type": "css"
+  }
+
+,
+  {
+    "key": "btnSolNavigationSearch",
+    "value": "div[class='icon icon-resize-expand']",
+    "type": "css"
+  }
+,
+  {
+    "key": "btnMore",
+    "value": "span[class='icon icon-triangle-down']",
+    "type": "css"
+  }
+,
+  {
+    "key": "TextSozlesmeNumarasıAlanı",
+    "value": "ctl00_PagePlaceHolder_ProposalNoTextBox_I",
+    "type": "id"
+  }
+
+,
+  {
+    "key": "btnSearch",
+    "value": "ctl00_PagePlaceHolder_SearchButton",
+    "type": "id"
+  }
+
+,
+  {
+    "key": "btnSignature",
+    "value": "i[class='status-b']",
+    "type": "css"
+  }
+,
+  {
+    "key": "btnStartEditing",
+    "value": "ctl00_ctl00_Container4_StartEditingButton_CD",
+    "type": "id"
+  }
+
+,
+  {
+    "key": "btnListDropdawn",
+    "value": "ctl00_ctl00_PagePlaceHolder_PagePlaceHolderNested_CollateralComponent_CreditedVehiclesGridView_PagerBarB_DXPagerBottom_DDBImg",
+    "type": "id"
+  }
+
+,
+  {
+    "key": "btnListcount",
+    "value": "ctl00_ctl00_PagePlaceHolder_PagePlaceHolderNested_CollateralComponent_CreditedVehiclesGridView_PagerBarB_DXPagerBottom_PSP_DXI0_T",
+    "type": "id"
+  }
+
+,
+  {
+    "key": "btnEditingStop",
+    "value": "ctl00_ctl00_Container4_EndEditingButton_CD",
+    "type": "id"
+  }
+
+,
+  {
+    "key": "btnApprove",
+    "value": "#ctl00_ctl00_PagePlaceHolder_PagePlaceHolderNested_SignatureGridView_cell0_3_ApproveButton_CD>span",
+    "type": "css"
+  }
+
+
+
+
+
+
+
+
+
+]

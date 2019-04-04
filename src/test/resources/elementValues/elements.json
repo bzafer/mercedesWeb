@@ -1,0 +1,427 @@
+[
+  {
+    "key": "tbUsername",
+    "value": "UsernameTextBox",
+    "type": "id"
+  },
+  {
+    "key": "tbPassword",
+    "value": "PasswordTextBox",
+    "type": "id"
+  },
+  {
+    "key": "btnLogin",
+    "value": "LoginButton2",
+    "type": "id"
+  },
+  {
+    "key": "btnNavigation",
+    "value": "navigation",
+    "type": "id"
+  },
+  {
+    "key": "btnTeklifGirisi",
+    "value": "div[class='tab-navigation']:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li>a:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "btnAracKredisi",
+    "value": "ctl00_PagePlaceHolder_VehicleLink",
+    "type": "id"
+  },
+  {
+    "key": "panelTeklifGirisiGenelBilgiler",
+    "value": "GeneralInformationPanel",
+    "type": "id"
+  },
+  {
+    "key": "panelTeklifGirisiAracBilgileri",
+    "value": "VehicleInformationPanel",
+    "type": "id"
+  },
+  {
+    "key": "panelTeklifGirisiFinansalBilgiler",
+    "value": "FinancialInformationPanel",
+    "type": "id"
+  },
+  {
+    "key": "dropdownTeklifGirisiGenelBilgilerBayi",
+    "value": "ctl00_PagePlaceHolder_DealerCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionTeklifGirisiGenelBilgilerBayiSecenekAydogan",
+    "value": "ctl00_PagePlaceHolder_DealerCombobox_DDD_L_LBI6T0",
+    "type": "id"
+  },
+  {
+    "key": "dropdownTeklifGirisiGenelBilgilerSatısTemsilcisi",
+    "value": "ctl00_PagePlaceHolder_DealerSalesPersonCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionTeklifGirisiGenelBilgilerSatısTemsilcisiSecenekEsra",
+    "value": "ctl00_PagePlaceHolder_DealerSalesPersonCombobox_DDD_L_LBI1T0",
+    "type": "id"
+  },
+  {
+    "key": "dropdownTeklifGirisiGenelBilgilerSegment",
+    "value": "ctl00_PagePlaceHolder_SegmentCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionTeklifGirisiGenelBilgilerSatısSegmentSecenekBinek",
+    "value": "ctl00_PagePlaceHolder_SegmentCombobox_DDD_L_LBI0T0",
+    "type": "id"
+  },
+  {
+    "key": "tbTeklifGirisiGenelBilgilerSatısTCKN",
+    "value": "ctl00_PagePlaceHolder_CreditFileCustomerInformationComponent_CustomerIdentityTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "dropdownTeklifGirisiGenelBilgilerMusteriTipi",
+    "value": "ctl00_PagePlaceHolder_CustomerTypeCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "dropdownTeklifGirisiGenelBilgilerAdSoyad",
+    "value": "ctl00_PagePlaceHolder_CreditFileCustomerInformationComponent_CustomerNameComboBox_I",
+    "type": "id"
+  },
+  {
+    "key": "btnAracBilgileriAcKapa",
+    "value": "i[onclick='VehicleInformationHyperLinkClicked(event);']",
+    "type": "css"
+  },
+  {
+    "key": "btnAracBilgileriAracDurumuSıfırKm",
+    "value": "ctl00_PagePlaceHolder_VehicleStateRadioButtonList_RB0_I_D",
+    "type": "id"
+  },
+  {
+    "key": "dropdownAracBilgileriMarka",
+    "value": "ctl00_PagePlaceHolder_BrandCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionAracBilgileriMarkaMercedes",
+    "value": "ctl00_PagePlaceHolder_BrandCombobox_DDD_L_LBI0T0",
+    "type": "id"
+  },
+  {
+    "key": "dropdownAracBilgileriSeri",
+    "value": "ctl00_PagePlaceHolder_SerieCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionAracBilgileriSeriASerisi",
+    "value": "ctl00_PagePlaceHolder_SerieCombobox_DDD_L_LBI0T0",
+    "type": "id"
+  },
+  {
+    "key": "dropdownAracBilgileriTip",
+    "value": "ctl00_PagePlaceHolder_ModelTypeCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionAracBilgileriTipHatchback",
+    "value": "ctl00_PagePlaceHolder_ModelTypeCombobox_DDD_L_LBI0T0",
+    "type": "id"
+  },
+  {
+    "key": "dropdownAracBilgileriModel",
+    "value": "ctl00_PagePlaceHolder_ModelCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionAracBilgileriModelA180Amg",
+    "value": "ctl00_PagePlaceHolder_ModelCombobox_DDD_L_LBI1T0",
+    "type": "id"
+  },
+  {
+    "key": "dropdownAracBilgileriModelYili",
+    "value": "ctl00_PagePlaceHolder_ModelYearCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionAracBilgileriModelYili2017",
+    "value": "ctl00_PagePlaceHolder_ModelYearCombobox_DDD_L_LBI2T0",
+    "type": "id"
+  },
+  {
+    "key": "tbAracBilgileriAracAdedi",
+    "value": "ctl00_PagePlaceHolder_UnitCountTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "tbAracBilgileriAracFiyati",
+    "value": "ctl00_PagePlaceHolder_UnitPriceTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "dropdownAracBilgileriAracFiyatiKurBilgisi",
+    "value": "ctl00_PagePlaceHolder_UnitPriceCurrencyComboBox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionsAracBilgileriAracFiyatiKurBilgisi",
+    "value": "table#ctl00_PagePlaceHolder_UnitPriceCurrencyComboBox_DDD_L_LBT>tbody>tr",
+    "type": "css"
+  },
+  {
+    "key": "btnFinansalBilgilerAcKapa",
+    "value": "i[data-trackbars='ClientTrackBar3']",
+    "type": "css"
+  },
+  {
+    "key": "tbFinansalBilgilerKrediTutarı",
+    "value": "ctl00_PagePlaceHolder_CreditAmountTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "tbFinansalBilgilerVade",
+    "value": "ctl00_PagePlaceHolder_TermTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "tbFinansalBilgilerToplamAracTutarı",
+    "value": "ctl00_PagePlaceHolder_TotalPriceTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "dropdownFinansalBilgilerKrediTahsisUcreti",
+    "value": "ctl00_PagePlaceHolder_ManagementFeeTypeCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "textFinansalBilgilerUrunSecenekleriUrunTipi",
+    "value": "ctl00_PagePlaceHolder_FinancialAlternativesGridView_cell0_0_NameLabel",
+    "type": "id"
+  },
+  {
+    "key": "btnBilesen",
+    "value": "ctl00_Container4_ConsolidatedElementsButton1",
+    "type": "id"
+  },
+  {
+    "key": "tableMevcutBilesen",
+    "value": "ctl00_Container4_ConsolidatedCreditTypesGridView",
+    "type": "id"
+  },
+  {
+    "key": "dropdownBilesen",
+    "value": "ctl00_Container4_AddElementCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionBilesenUzatilmisGarantiKredisi",
+    "value": "ctl00_Container4_AddElementCombobox_DDD_L_LBI2T0",
+    "type": "id"
+  },
+  {
+    "key": "btnBilesenArti",
+    "value": "ctl00_Container4_AddElementButton_BImg",
+    "type": "id"
+  },
+  {
+    "key": "textTeklifiKaydetmelisiniz",
+    "value": "ctl00_PagePlaceHolder_ConfirmSavePopupControl_ConfirmSaveLabel",
+    "type": "id"
+  },
+  {
+    "key": "btnTeklifiKaydetmelisinizEvet",
+    "value": "ctl00_PagePlaceHolder_ConfirmSavePopupControl_ConfirmSaveButton_B",
+    "type": "id"
+  },
+  {
+    "key": "tableElementler",
+    "value": "ctl00_PagePlaceHolder_AdditionalElementUserControl_AdditionalElementPopupControl_PW-1",
+    "type": "id"
+  },
+  {
+    "key": "dropdownElementlerUzatilmisGarantiSuresi",
+    "value": "ctl00_PagePlaceHolder_AdditionalElementUserControl_AdditionalElementPopupControl_ProductTermCombobox_I",
+    "type": "id"
+  },
+  {
+    "key": "optionElementlerUzatilmisGarantiSuresiBir",
+    "value": "ctl00_PagePlaceHolder_AdditionalElementUserControl_AdditionalElementPopupControl_ProductTermCombobox_DDD_L_LBI0T0",
+    "type": "id"
+  },
+  {
+    "key": "tbElementlerUzatilmisGarantiFiyati",
+    "value": "ctl00_PagePlaceHolder_AdditionalElementUserControl_AdditionalElementPopupControl_UnitPriceTextBox_I",
+    "type": "id"
+  },
+  {
+    "key": "btnElementlerKaydet",
+    "value": "ctl00_PagePlaceHolder_AdditionalElementUserControl_AdditionalElementPopupControl_SaveButton_B",
+    "type": "id"
+  },
+  {
+    "key": "textElementlerIslemBasarili",
+    "value": "div#ctl00_MessagesControl_SuccessMessagesPanel>div>div>h2",
+    "type": "css"
+  },
+  {
+    "key": "textElementlerTeklifNo",
+    "value": "div#ctl00_MessagesControl_SuccessMessagesPanel>div>div>ul>li",
+    "type": "css"
+  },
+  {
+    "key": "btnTeklifKaydedildiDevamEt",
+    "value": "ctl00_PagePlaceHolder_OpenContinuePopupControlButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "panelTeklifKaydetmeEkrani",
+    "value": "ctl00_PagePlaceHolder_ContinuePopupControl_CLW-1",
+    "type": "id"
+  },
+  {
+    "key": "btnTeklifiKaydetmeEkraniDevamEt",
+    "value": "ctl00_PagePlaceHolder_ContinuePopupControl_ContinueButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "panelDahaOncedenVarolanTeklifEkrani",
+    "value": "ctl00_PagePlaceHolder_CustomerCreditFileVersionsComponent_CustomerCreditFileVersionsPopupControl_PWC-1",
+    "type": "id"
+  },
+  {
+    "key": "btnDahaOncedenVarolanTeklifEkraniDevam",
+    "value": "ctl00_PagePlaceHolder_CustomerCreditFileVersionsComponent_CustomerCreditFileVersionsPopupControl_ExitButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "btnTeklifEkraniMusteriTabiKaydet",
+    "value": "ctl00_Container4_SaveButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "panelIletisimBilgileri",
+    "value": "ctl00_PagePlaceHolder_ContactInformationPopupControl_CLW-1",
+    "type": "id"
+  },
+  {
+    "key": "btnIletisimBilgileriKaydet",
+    "value": "ctl00_PagePlaceHolder_ContactInformationPopupControl_ContactSaveButton_BImg",
+    "type": "id"
+  },
+  {
+    "key": "btnTeklifEkraniMusteriTabiDevam",
+    "value": "ctl00_Container4_ForwardButton",
+    "type": "id"
+  },
+  {
+    "key": "panelKefilTeminatEkrani",
+    "value": "//LABEL[contains(text(), 'KEFİL')]",
+    "type": "xpath"
+  },
+  {
+    "key": "btnKefilTeminatEkraniBasvuruyuGonder",
+    "value": "ctl00_Container4_SendApplicationButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "panelDokumanYuklemeEkrani",
+    "value": "DocumentPanel",
+    "type": "id"
+  },
+  {
+    "key": "panelBasvuruGonderimiInfo",
+    "value": "ul.mT5>li",
+    "type": "css"
+  },
+  {
+    "key": "btnDokumanYuklemePanelAcKapa",
+    "value": "div#DocumentUploadPanel>div.acc-title>i.global-tooltip.t-gray",
+    "type": "css"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukle",
+    "value": "ctl00_PagePlaceHolder_UploadDocumentSetButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "popupYeniDokumanSetiYukle",
+    "value": "ctl00_PagePlaceHolder_DocumentUploadPopup_CLW-1",
+    "type": "id"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukleDokumanTuru",
+    "value": "ctl00_PagePlaceHolder_DocumentUploadPopup_DocumentGroupComboBox_I",
+    "type": "id"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukleDokumanTuruBasvuru",
+    "value": "ctl00_PagePlaceHolder_DocumentUploadPopup_DocumentGroupComboBox_DDD_L_LBI0T0",
+    "type": "id"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukleBirDosyaSeciniz",
+    "value": "#ctl00_PagePlaceHolder_DocumentUploadPopup_DocumentUploadControl_TextBox0>input:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukleYukle",
+    "value": "ctl00_PagePlaceHolder_DocumentUploadPopup_UploadSelectedFileButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "txtYeniDokumanSetiYukleYuklemeBasarili",
+    "value": "div.msg-content.success-message.client-message.small-message>div.col-md-1>div.m-content>p",
+    "type": "css"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukleCarpi",
+    "value": "ctl00_PagePlaceHolder_DocumentUploadPopup_HCB-1Img",
+    "type": "id"
+  },
+  {
+    "key": "btnDokumanYuklemeSeciliDokumanlariYukle",
+    "value": "ctl00_PagePlaceHolder_SendSelectedDocumentSetsToMoreumButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "btnYeniDokumanSetiYukleYuklemeBasariliCarpi",
+    "value": "div[class='msg-content success-message client-message small-message']>a",
+    "type": "css"
+  },
+  {
+    "key": "txtDokumanYuklemeAktarmaIslemiBasarili",
+    "value": "#ctl00_MessagesControl_SuccessMessagesPanel>div>div>ul.mT5",
+    "type": "css"
+  },
+  {
+    "key": "btnDokumanYuklemeOnayaGonder",
+    "value": "ctl00_PagePlaceHolder_SendToApprovalButton_CD",
+    "type": "id"
+  },
+  {
+    "key": "textDokumanYuklemeOnayaGonderBasarili",
+    "value": "div>ul.mT5",
+    "type": "css"
+  },
+  {
+    "key": "btnAramaFiltreleriDokumanSorumlusu",
+    "value": "ctl00_PagePlaceHolder_DocumentResponsibleGridLookup_I",
+    "type": "id"
+  },
+  {
+    "key": "optionAramaFiltreleriDokumanSorumlusuSelectAll",
+    "value": "ctl00_PagePlaceHolder_DocumentResponsibleGridLookup_DDD_gv_header0_SelectAllCheckBox_0_S_D",
+    "type": "id"
+  },
+  {
+    "key": "whiteBlank",
+    "value": "img[src='assets/images/blank.png']",
+    "type": "css"
+  },
+  {
+    "key": "aylikGelir",
+    "value": "ctl00_PagePlaceHolder_MonthlyIncomeTextBox_I",
+    "type": "id"
+  }
+]

@@ -1,0 +1,247 @@
+#<username> ve <password> ile login ol
+*"tbUsername" elementine <username> değerini yaz
+*"tbPassword" elementine <password> değerini yaz
+*"btnLogin" elementine tıkla
+*Şuanki URL "https://atlasimtest1.mbfh.com.tr/IndexPage.aspx" değerini içeriyor mu, tekrarlı kontrol et
+
+//Geçici
+#<username> ve <password> ile login ol (URL kontrolü yapmadan)
+*"tbUsername" elementine <username> değerini yaz
+*"tbPassword" elementine <password> değerini yaz
+*"btnLogin" elementine tıkla
+
+#Teklif Girişi sayfasına ilerle
+*"btnNavigation" elementine tıkla
+*"2" saniye bekle
+*"btnTeklifGirisi" elementine tıkla
+*"2" saniye bekle
+*"btnAracKredisi" elementi var mı
+*"2" saniye bekle
+
+#Arac Kredisi sayfasına ilerle
+*"btnAracKredisi" elementine tıkla
+*"2" saniye bekle
+*"panelTeklifGirisiGenelBilgiler" elementi var mı
+*"2" saniye bekle
+*"panelTeklifGirisiAracBilgileri" elementi var mı
+*"2" saniye bekle
+*"panelTeklifGirisiFinansalBilgiler" elementi var mı
+*"2" saniye bekle
+
+#Genel Bilgiler kısmını doldur
+*"dropdownTeklifGirisiGenelBilgilerBayi" elementine tıkla
+*"2" saniye bekle
+//*"whiteBlank" elementi var mı
+//*"whiteBlank" elementi yok mu
+*"optionTeklifGirisiGenelBilgilerBayiSecenekAydogan" elementine tıkla
+*"12" saniye bekle
+//*"whiteBlank" elementi var mı
+//*"whiteBlank" elementi yok mu
+*"dropdownTeklifGirisiGenelBilgilerSatısTemsilcisi" elementine tıkla
+*"2" saniye bekle
+*"optionTeklifGirisiGenelBilgilerSatısTemsilcisiSecenekEsra" elementine tıkla
+*"10" saniye bekle
+//*"whiteBlank" elementi yok mu
+*"dropdownTeklifGirisiGenelBilgilerSegment" elementine tıkla
+*"2" saniye bekle
+*"optionTeklifGirisiGenelBilgilerSatısSegmentSecenekBinek" elementine tıkla
+*"7" saniye bekle
+//*"whiteBlank" elementi yok mu
+*"tbTeklifGirisiGenelBilgilerSatısTCKN" elementine tıkla
+*"2" saniye bekle
+*"tbTeklifGirisiGenelBilgilerSatısTCKN" elementine "18640424278" değerini yaz
+*"2" saniye bekle
+*"tbTeklifGirisiGenelBilgilerSatısTCKN" elementine TAB keyi yolla
+*"8" saniye bekle
+//*"whiteBlank" elementi yok mu
+
+#TCKN girişinden sonra verilerin geldiğini kontrol et
+*"dropdownTeklifGirisiGenelBilgilerMusteriTipi" elementinin "value" niteliği "Bireysel" değerine eşit mi
+*"dropdownTeklifGirisiGenelBilgilerAdSoyad" elementinin "value" niteliği "SERHAT ÖZOĞLU" değerine eşit mi
+//*"dropdownTeklifGirisiGenelBilgilerAdSoyad" elementinin "value" niteliği "BERFİN YAVUZASLAN" değerine eşit mi
+*"4" saniye bekle
+
+#Arac Bilgileri kısmını doldur
+*"btnAracBilgileriAcKapa" elementine tıkla
+*"4" saniye bekle
+*"btnAracBilgileriAracDurumuSıfırKm" elementine tıkla
+*"2" saniye bekle
+*"dropdownAracBilgileriMarka" dropdown elementinden "optionAracBilgileriMarkaMercedes" değerini seç
+*"2" saniye bekle
+*"dropdownAracBilgileriSeri" dropdown elementinden "optionAracBilgileriSeriASerisi" değerini seç
+*"2" saniye bekle
+*"dropdownAracBilgileriTip" dropdown elementinden "optionAracBilgileriTipHatchback" değerini seç
+*"2" saniye bekle
+*"dropdownAracBilgileriModel" dropdown elementinden "optionAracBilgileriModelA180Amg" değerini seç
+*"2" saniye bekle
+*"dropdownAracBilgileriModelYili" dropdown elementinden "optionAracBilgileriModelYili2017" değerini seç
+*"5" saniye bekle
+*"tbAracBilgileriAracAdedi" elementine tıkla
+*"2" saniye bekle
+*"tbAracBilgileriAracAdedi" elementinin text alanını temizle
+*"2" saniye bekle
+*"tbAracBilgileriAracAdedi" elementine "1" değerini yaz
+*"4" saniye bekle
+*"tbAracBilgileriAracFiyati" elementine tıkla
+*"2" saniye bekle
+*"tbAracBilgileriAracFiyati" elementine BACKSPACE keyi yolla
+*"tbAracBilgileriAracFiyati" elementine BACKSPACE keyi yolla
+*"tbAracBilgileriAracFiyati" elementine BACKSPACE keyi yolla
+*"tbAracBilgileriAracFiyati" elementine BACKSPACE keyi yolla
+*"2" saniye bekle
+*"tbAracBilgileriAracFiyati" elementine "80000" değerini yaz
+*"2" saniye bekle
+*"tbAracBilgileriAracFiyati" elementine TAB keyi yolla
+*"2" saniye bekle
+*"dropdownAracBilgileriAracFiyatiKurBilgisi" elementinin "value" niteliği "TRY" değerine eşit mi
+*"2" saniye bekle
+*"optionsAracBilgileriAracFiyatiKurBilgisi" elementinin çocuk sayısı "1" değerine eşit mi
+*"6" saniye bekle
+
+#<key1> dropdown elementinden <key2> değerini seç
+*"4" saniye bekle
+*<key1> elementine tıkla
+*"3" saniye bekle
+*<key2> elementine tıkla
+*"4" saniye bekle
+
+#Finansal Bilgiler kısmını doldur
+*"btnFinansalBilgilerAcKapa" elementine tıkla
+*"4" saniye bekle
+*"tbFinansalBilgilerKrediTutarı" elementine tıkla
+*"2" saniye bekle
+*"tbFinansalBilgilerKrediTutarı" elementine BACKSPACE keyi yolla
+*"tbFinansalBilgilerKrediTutarı" elementine BACKSPACE keyi yolla
+*"tbFinansalBilgilerKrediTutarı" elementine BACKSPACE keyi yolla
+*"tbFinansalBilgilerKrediTutarı" elementine BACKSPACE keyi yolla
+*"2" saniye bekle
+*"tbFinansalBilgilerKrediTutarı" elementine "30000" değerini yaz
+*"2" saniye bekle
+*"tbFinansalBilgilerVade" elementine "12" değerini yaz
+*"2" saniye bekle
+*"tbFinansalBilgilerVade" elementine TAB keyi yolla
+*"6" saniye bekle
+*"tbFinansalBilgilerToplamAracTutarı" elementinin "value" niteliği "80,000.00  TRY" değerine eşit mi
+*"2" saniye bekle
+*"tbFinansalBilgilerToplamAracTutarı" elementinin "disabled" niteliği "true" değerine eşit mi
+*"6" saniye bekle
+*"dropdownFinansalBilgilerKrediTahsisUcreti" elementinin "value" niteliği "İlk Taksit" değerine eşit mi
+*"4" saniye bekle
+*"textFinansalBilgilerUrunSecenekleriUrunTipi" elementinin text değeri "Standart" değerine eşit mi
+*"2" saniye bekle
+
+#Ekranın sağ üst menüsünde yer alan BİLEŞEN butonuna tıkla
+*"btnBilesen" elementine tıkla
+*"4" saniye bekle
+*"dropdownBilesen" elementine tıkla
+*"2" saniye bekle
+*"optionBilesenUzatilmisGarantiKredisi" elementine tıkla
+*"2" saniye bekle
+*"tableMevcutBilesen" elementi var mı
+*"2" saniye bekle
+*"btnBilesenArti" elementine tıkla
+*"12" saniye bekle
+*"textTeklifiKaydetmelisiniz" elementinin text değeri "Devam Etmek İçin Teklifi Kaydetmelisiniz. Kaydetmek İster Misiniz?" değerine eşit mi
+*"4" saniye bekle
+*"btnTeklifiKaydetmelisinizEvet" elementine tıkla
+*"2" saniye bekle
+*"tableElementler" elementi var mı
+*"6" saniye bekle
+
+#Elementler tablosuna değerleri gir
+*"dropdownElementlerUzatilmisGarantiSuresi" elementine tıkla
+*"2" saniye bekle
+*"optionElementlerUzatilmisGarantiSuresiBir" elementine tıkla
+*"5" saniye bekle
+*"tbElementlerUzatilmisGarantiFiyati" elementine tıkla
+*"2" saniye bekle
+*"tbElementlerUzatilmisGarantiFiyati" elementine BACKSPACE keyi yolla
+*"tbElementlerUzatilmisGarantiFiyati" elementine BACKSPACE keyi yolla
+*"tbElementlerUzatilmisGarantiFiyati" elementine BACKSPACE keyi yolla
+*"tbElementlerUzatilmisGarantiFiyati" elementine BACKSPACE keyi yolla
+*"2" saniye bekle
+*"tbElementlerUzatilmisGarantiFiyati" elementine "3000" değerini yaz
+*"2" saniye bekle
+*"tbElementlerUzatilmisGarantiFiyati" elementine TAB keyi yolla
+*"4" saniye bekle
+*Click on css "#ctl00_PagePlaceHolder_AdditionalElementUserControl_AdditionalElementPopupControl_SaveButton_B" with javascrip
+
+#Teklif kayıt işlemlerini tamamla
+*"textElementlerIslemBasarili" elementi var mı
+*"textElementlerTeklifNo" elementinin text değerini sakla
+*"btnTeklifKaydedildiDevamEt" elementine tıkla
+*"panelTeklifKaydetmeEkrani" elementi var mı
+*Click on css "#ctl00_PagePlaceHolder_ContinuePopupControl_ContinueButton_CD" with javascrip
+*"10" saniye bekle
+//*"panelDahaOncedenVarolanTeklifEkrani" elementi varsa, "btnDahaOncedenVarolanTeklifEkraniDevam" elementine tıkla
+*"aylikGelir" elementine tıkla
+*"aylikGelir" elementine BACKSPACE keyi yolla
+*"aylikGelir" elementine BACKSPACE keyi yolla
+*"aylikGelir" elementine BACKSPACE keyi yolla
+*"aylikGelir" elementine BACKSPACE keyi yolla
+*"2" saniye bekle
+*"aylikGelir" elementine "500000" değerini yaz
+*"2" saniye bekle
+*Şuanki URL "ApplicationCustomerInfo" değerini içeriyor mu, tekrarlı kontrol et
+*"2" saniye bekle
+*"btnTeklifEkraniMusteriTabiKaydet" elementine tıkla
+*"2" saniye bekle
+
+#İletişim bilgileri işlemlerini tamamla
+*"panelIletisimBilgileri" elementi var mı
+*%60 Zoom out yap
+*"15" saniye bekle
+*"15" saniye bekle
+*Click on css "#ctl00_PagePlaceHolder_ContactInformationPopupControl_ContactSaveButton_BImg" with javascrip
+*"5" saniye bekle
+*Zoom resetle
+*"15" saniye bekle
+*"btnTeklifEkraniMusteriTabiDevam" elementine tıkla
+*"2" saniye bekle
+*"panelKefilTeminatEkrani" elementi var mı
+*"2" saniye bekle
+*"btnKefilTeminatEkraniBasvuruyuGonder" elementine tıkla
+*"2" saniye bekle
+
+#Döküman yükleme ekranının işlemlerini tamamla
+*"panelDokumanYuklemeEkrani" elementi var mı
+*"2" saniye bekle
+*"panelBasvuruGonderimiInfo" elementi var mı
+*"2" saniye bekle
+*"panelBasvuruGonderimiInfo" elementinin text değeri "Başvuru Gönderme İşleminiz Tamamlanmıştır. Lütfen Başvuru Dokümanlarını Yükleyiniz." değerine eşit mi
+*"2" saniye bekle
+*"btnDokumanYuklemePanelAcKapa" elementine tıkla
+*"4" saniye bekle
+*"btnYeniDokumanSetiYukle" elementine tıkla
+*"2" saniye bekle
+*"popupYeniDokumanSetiYukle" elementi var mı
+*"4" saniye bekle
+*"btnYeniDokumanSetiYukleDokumanTuru" elementine tıkla
+*"2" saniye bekle
+*"btnYeniDokumanSetiYukleDokumanTuruBasvuru" elementine tıkla
+*"4" saniye bekle
+*"btnYeniDokumanSetiYukleBirDosyaSeciniz" elementine tıkla "PoC_TestCase.xlsx" dosya yükle
+*"4" saniye bekle
+*"btnYeniDokumanSetiYukleYukle" elementine tıkla
+*"2" saniye bekle
+*"txtYeniDokumanSetiYukleYuklemeBasarili" elementi var mı
+*"2" saniye bekle
+*"txtYeniDokumanSetiYukleYuklemeBasarili" elementinin text değeri "Yükleme Başarılı." değerine eşit mi
+*"6" saniye bekle
+*"btnYeniDokumanSetiYukleYuklemeBasariliCarpi" elementine tıkla
+*"4" saniye bekle
+*"btnYeniDokumanSetiYukleCarpi" elementine tıkla
+*"4" saniye bekle
+*"btnDokumanYuklemeSeciliDokumanlariYukle" elementine tıkla
+*"4" saniye bekle
+*"txtDokumanYuklemeAktarmaIslemiBasarili" elementinin text değeri "Aktarma İşlemi Başarılı." değerine eşit mi
+*"btnDokumanYuklemeOnayaGonder" elementine tıkla
+*"10" saniye bekle
+*"textDokumanYuklemeOnayaGonderBasarili" elementinin text değeri "Onaya Gönderme İşlemi Başarılı." değerine eşit mi
+*"2" saniye bekle
+
+#Döküman yönetimi adımını tamamla
+*"btnSolNavigateSearch" elementine tıkla
+*"4" saniye bekle
+*"btnMore" elementine tıkla
+*"2" saniye bekle
