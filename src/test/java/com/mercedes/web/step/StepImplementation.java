@@ -12,6 +12,7 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
 import java.util.List;
 import javax.swing.text.Document;
 import org.junit.Assert;
@@ -322,6 +323,61 @@ public class StepImplementation extends BaseTest {
     System.out.println("Thread Running");
     System.out.println(driver.getPageSource());
   }
+
+
+  @Step("<id> elemente cift tıkla ")
+  public void doubleClick(String id){
+    Actions action = new Actions(driver);
+    action.moveToElement(driver.findElement(By.cssSelector(id))).doubleClick().perform();
+    System.out.println("Çift tıklama işlemi gerçekleşti");
+    waitBySeconds(2);
+
+
+  }
+
+
+  public boolean isDisplayBy(By by) {
+    return driver.findElement(by).isDisplayed();
+  }
+
+  public boolean isDisplayByPassException(By by) {
+    try {
+      return driver.findElement(by).isDisplayed();
+    } catch (Exception e) {
+      return false;
+    }
+  }
+
+  public boolean isDisplayById(String id) {
+    try {
+      return driver.findElement(By.id(id)).isDisplayed();
+    } catch (Exception e) {
+      return false;
+    }
+  }
+
+  @Step("Start Editing butonu tıkla")
+  public void startEditingButton(){
+    if (isDisplayById("ctl00_ctl00_Container4_EndEditingButton_CD")){
+      driver.findElement(By.id("ctl00_ctl00_Container4_EndEditingButton_CD")).click();
+      waitBySeconds(1);
+      driver.findElement(By.id("ctl00_ctl00_Container4_StartEditingButton_CD")).click();
+      waitBySeconds(3);
+    }else{
+      driver.findElement(By.id("ctl00_ctl00_Container4_StartEditingButton_CD")).click();
+      waitBySeconds(2);
+    }
+  }
+
+
+
+@Step("Yeni Sekmeye odaklan")
+public void focusNewTab() {
+  ArrayList<String> tabList = new ArrayList<String>(driver.getWindowHandles());
+  driver.switchTo().window(tabList.get(tabList.size() - 1));
+
+}
+
 
 
 }

@@ -12,6 +12,12 @@ pipeline {
     }
         }
 
+        stage('- - - test2- - - ') {
+              steps {
+                sh "mvn test-compile gauge:execute -DspecsDir=specs -Dtags='krediOnay'"
+            }
+                }
+
     stage('- - package - -') {
       steps {
         sh "mvn package"

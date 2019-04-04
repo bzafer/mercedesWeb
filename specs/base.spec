@@ -8,20 +8,32 @@ Mercedes
 -----------
 Tags:Mercedes
 
-*"csavask" ve "123" ile login ol
-*Teklif Girişi sayfasına ilerle
-*Arac Kredisi sayfasına ilerle
-*Genel Bilgiler kısmını doldur
-*TCKN girişinden sonra verilerin geldiğini kontrol et
-*Arac Bilgileri kısmını doldur
-*Finansal Bilgiler kısmını doldur
-*Ekranın sağ üst menüsünde yer alan BİLEŞEN butonuna tıkla
-*Elementler tablosuna değerleri gir
-*Teklif kayıt işlemlerini tamamla
-*İletişim bilgileri işlemlerini tamamla
-*Döküman yükleme ekranının işlemlerini tamamla
+* "csavask" ve "123" ile login ol
+* Teklif Girişi sayfasına ilerle
+* Arac Kredisi sayfasına ilerle
+* Genel Bilgiler kısmını doldur
+* TCKN girişinden sonra verilerin geldiğini kontrol et
+* Arac Bilgileri kısmını doldur
+* Finansal Bilgiler kısmını doldur
+* Ekranın sağ üst menüsünde yer alan BİLEŞEN butonuna tıkla
+* Elementler tablosuna değerleri gir
+* Teklif kayıt işlemlerini tamamla
+* İletişim bilgileri işlemlerini tamamla
+* Döküman yükleme ekranının işlemlerini tamamla
 
 
+
+
+Kredi onay
+---------------
+Tags:krediOnay
+* "ssezek4" ve "123" ile login ol
+* Navigation > Teklif Değerlendirme > kredi Değerlendirme Sorgulama Ekranı açılır.
+* Sol navigasyon arama filtresine tıkla
+* Proposal Number alanında sözleşme numarası "18011821" yaz ve  teklif arat
+* Teklifin üzerine çift tıklanır.
+* Start Editing butonu tıkla
+* Approve butonuna tıklanır.
 
 
 
