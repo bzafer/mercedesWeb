@@ -8,7 +8,7 @@ pipeline {
     }
     stage('- - - test- - - ') {
       steps {
-        sh "mvn test-compile gauge:execute -DspecsDir=specs -Dtags='PlanYourJourney'"
+        sh "mvn test-compile gauge:execute -DspecsDir=specs -Dtags='Mercedes'"
     }
         }
 
